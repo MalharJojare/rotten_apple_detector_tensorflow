@@ -1,0 +1,7 @@
+tensorflow==2.10
+protobuf<3.20
+pillow
+streamlit
+fastapi
+uvicorn
+numpy<2
