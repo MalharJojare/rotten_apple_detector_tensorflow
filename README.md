@@ -38,21 +38,21 @@ We use:
 ```bash
 git clone https://github.com/your-username/Detection-of-Rotten-Fruits-DRF.git
 cd Detection-of-Rotten-Fruits-DRF
-
+```
 ### 2️⃣ Create environment & install dependencies
 ```bash
 conda create -n tf-gpu python=3.9
 conda activate tf-gpu
 pip install -r requirements.txt
-
+```
 ### 3️⃣ Train the model (optional)
 ```bash
 python rotten_fruit_detection.py
-
+```
 ### 4️⃣ Run FastAPI server
 ```bash
 python -m uvicorn main:app --reload
-
+```
 ### 5️⃣ Run Streamlit dashboard
 ```bash
 streamlit run app.py
