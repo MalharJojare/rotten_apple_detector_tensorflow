@@ -1,5 +1,4 @@
 tensorflow==2.20.0
-protobuf<4
 numpy<2
 pillow
 streamlit
